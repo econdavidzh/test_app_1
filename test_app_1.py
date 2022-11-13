@@ -44,14 +44,14 @@ fuentes['¿Para qué nos sirve la Ciencia de Datos?'] = """\n  \n Fuente: https:
 fuentes['¿Cuáles son las técnicas de la ciencia de datos?'] = """  \n  \n  Fuentes:  \n  \n  https://aws.amazon.com/es/what-is/data-science/  \n  \n  Chollet, F. (2021). Deep learning with Python. Simon and Schuster."""
 fuentes['¿Cuál es el proceso de la ciencia de datos?'] = """  \n  \n  Fuente: https://aws.amazon.com/es/what-is/data-science/"""
 fuentes['¿Qué herramientas usa un científico de datos?'] = """  \n  \n  Fuentes:  \n  \n  https://medium.com/@goodrebels/las-herramientas-de-trabajo-del-cient%C3%ADfico-de-datos-6e16c8c71415  \n  \n  https://geekflare.com/es/data-science-tools/  \n  \n  https://www.ceupe.mx/blog/conoces-jupyter-notebook.html  \n  \n  https://colab.research.google.com/"""
-fuentes['Ciencia de Datos Aplicada'] = """  \n  \n  Accede al notebook por el siguiente enlace: https://github.com/econdavidzh/sds/blob/main/calidad%20del%20aire%20en%20Bogota%CC%81.ipynb o https://colab.research.google.com/drive/1ZlwVZqf2TblyHBrG_E1JweR6vbzanQg8?usp=sharing"""
+fuentes['Ciencia de Datos Aplicada'] = """  \n  \n  Accede al notebook por el siguiente enlace: https://colab.research.google.com/drive/1ZlwVZqf2TblyHBrG_E1JweR6vbzanQg8?usp=sharing"""
 
 # Estructura:
 ## Sidebar:
 sidebar = st.sidebar
 sidebar.image('Images//bioadviser.png', width=300)
 tema_seleccionado = sidebar.selectbox('Selecciona un tema', tema)
-sidebar.markdown('Aplicación elaborada por [David Zambrano](https://www.linkedin.com/in/david-enrique-zambrano-a753a764/) :flag-co:')
+sidebar.markdown('Aplicación elaborada para los estudiantes de Fundamentos de Python de [David Zambrano](https://www.linkedin.com/in/david-enrique-zambrano-a753a764/))
 
 ## Principal:
 st.image('Images//CCBIO.png')
