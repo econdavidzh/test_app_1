@@ -51,12 +51,10 @@ fuentes['Ciencia de Datos Aplicada'] = """  \n  \n  Accede al notebook por el si
 sidebar = st.sidebar
 sidebar.image('Images//bioadviser.png', width=300)
 tema_seleccionado = sidebar.selectbox('Selecciona un tema', tema)
-sidebar.markdown('Accede a la aplicación desde el celular escaneando el código qr:')
-sidebar.image('Images//qrcode.png', width=250)
 sidebar.markdown('Aplicación elaborada por [David Zambrano](https://www.linkedin.com/in/david-enrique-zambrano-a753a764/) :flag-co:')
 
 ## Principal:
-#st.header('X Jornada Distrital de Epidemiología y Salud Pública - Secretaría Distrital de Salud de Bogotá.')
+st.image('Images//CCBIO.png')
 st.title('Introducción a la Ciencia de Datos e Inteligencia Artificial') 
 st.subheader(tema_seleccionado)
 st.image(imagenes[tema_seleccionado])
