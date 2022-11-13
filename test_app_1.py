@@ -51,7 +51,7 @@ fuentes['Ciencia de Datos Aplicada'] = """  \n  \n  Accede al notebook por el si
 sidebar = st.sidebar
 sidebar.image('Images//bioadviser.png', width=300)
 tema_seleccionado = sidebar.selectbox('Selecciona un tema', tema)
-sidebar.markdown('Aplicación elaborada para los estudiantes de Fundamentos de Python de [David Zambrano](https://www.linkedin.com/in/david-enrique-zambrano-a753a764/))
+sidebar.markdown('Aplicación elaborada para los estudiantes de Fundamentos de Python de [David Zambrano](https://www.linkedin.com/in/david-enrique-zambrano-a753a764/)')
 
 ## Principal:
 st.image('Images//CCBIO.png')
